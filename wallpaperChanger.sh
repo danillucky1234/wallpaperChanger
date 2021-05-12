@@ -15,7 +15,7 @@ fi
 
 printHelpMessage ()
 {
-	echo -e "${BLUE}Usage:\t${NC}bash wallpaperChanger.sh [options] [path]"
+	echo -e "${BLUE}Usage:\t${NC}./`basename ${0}` [options] [path]"
 	echo ""
 	echo -e "${BLUE}Possible options:${NC}"
 	echo -e "\t-h, --help\t\tPrint this help message"
